@@ -1,18 +1,18 @@
 # DarkRotations Readme
-####[Environment](#Environment)
-####[Interface](#Interface)
-####[Buttons](#Buttons)
-####[Color](#Color)
-####[Interface](#Interface)
-####[Window](#Window)
-####[Rotations](#Rotations)
-#####[Other](#Other)
-#####[Examples](#Examples)
+#### [Environment](#Environment)
+#### [Interface](#Interface)
+#### [Buttons](#Buttons)
+#### [Color](#Color)
+#### [Interface](#Interface)
+#### [Window](#Window)
+#### [Rotations](#Rotations)
+##### [Other](#Other)
+##### [Examples](#Examples)
 
 
-#Environment
+# Environment
 
-##Buff
+## Buff
 - exists()
 
         Check if a buff exists.
@@ -38,7 +38,7 @@
 
         Returns true if the buff can be spellstealed.
 
-##Cast
+## Cast
 - Cast(spell, unit)
     
         spell:
@@ -52,7 +52,7 @@
                 Cast(SB.ChaosBolt, "focus");
                 Cast(SB.Conflagurate, "party1");
 
-##Debuff
+## Debuff
 - exists()
 
         Check if a debuff exists.
@@ -76,7 +76,7 @@
         Returns the duration of the debuff.
 
 
-##Enemies
+## Enemies
 - count(func)
 
         Returns the amount of nearby enemys.
@@ -87,10 +87,10 @@
 
         Returns the amount of nearby enemys in a given distance.
 
-##Environment
+## Environment
 
 
-##Group
+## Group
 - count(func)
 - match(func)
 - buffable(spell)
@@ -98,7 +98,7 @@
 - dispellable(spell)
 - under(...)
 
-##Health
+## Health
 - percent
 
         Returns the unit health in percentage. (0.00 ~ 100).
@@ -118,7 +118,7 @@ Example:
         player.acutal;      -- obtains actual player HP
         target.incoming;    -- obtains health from target player
         
-##Logical
+## Logical
 '^player',
 '^pet',
 '^vehicle',
@@ -132,7 +132,7 @@ Example:
 '^boss[1-5]',
 '^arena[1-5]'
 
-##Modifier
+## Modifier
 - shift
 - control
 - alt
@@ -143,7 +143,7 @@ Example:
 - rcontrol
 - ralt
 
-##Power
+## Power
 - base
 - mana
 - rage
@@ -163,7 +163,7 @@ Example:
 - fury
 - pain
 
-##Powertype
+## Powertype
 - actual
 - max
 - deficit
@@ -175,10 +175,10 @@ Example:
 - regenpercent
 - tomax
 
-##Runes
+## Runes
 - count
 
-##Spell
+## Spell
 - cooldown
 - exists
 - castingtime
@@ -189,7 +189,7 @@ Example:
 - castable
 - current
 
-##Unit
+## Unit
 - buff
 - debuff
 - health
@@ -219,10 +219,10 @@ Example:
 - dispellable
 
 
-##Virtual
+## Virtual
 
-#Interface
-##Buttons
+# Interface
+## Buttons
 - commands
 /dr move
 /dr size button_size
@@ -234,7 +234,7 @@ Example:
 -- interrupts
 -- multitarget
 
-##Color
+## Color
 - red
 - dark_red
 - pink
@@ -265,20 +265,20 @@ Example:
 - dark_grey
 - warrior_brown
 
-##Interface
+## Interface
 - icons (make list & tooltip name?)
 
-##Window
+## Window
 
-#Rotation
+# Rotation
 
 
-##Rotation
-##Timer
+## Rotation
+## Timer
 
-#Other
+# Other
 
-##data.data - null
-##data.removables - spell ID's that need to be removed in PvE?
+## data.data - null
+## data.removables - spell ID's that need to be removed in PvE?
 
-#Examples
+# Examples

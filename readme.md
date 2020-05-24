@@ -13,6 +13,12 @@
 # Environment
 
 ## Buff
+
+##      Example
+        if player.buff("Ice BLock").down and player.health.percent <= 10 then
+        return cast("Ice Block", "player")
+        end
+        
 - exists()
 
         Check if a buff exists.

@@ -108,6 +108,12 @@
 - percent
 
         Returns the unit health in percentage. (0.00 ~ 100).
+- deficit 
+
+        Returns the missing health (same as missing)
+- deficitpercent
+
+        Returns the deficit health, but as a percentage
 - actual
 
         Returns the actual unit health.
